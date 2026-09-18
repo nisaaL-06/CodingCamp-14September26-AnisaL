@@ -1,0 +1,124 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Change `STORAGE_KEY` constant in `js/script.js` from `'budget_expenses'` to `'transactions'`": [
+      {
+        "executionId": "c1741036-cb48-46a9-a0bc-6a5a0b96cbf0",
+        "chatSessionId": "sess_79a59e75-50b7-4433-b903-30cdee857bb1",
+        "timestamp": 1789724256865
+      },
+      {
+        "executionId": "c1741036-cb48-46a9-a0bc-6a5a0b96cbf0",
+        "chatSessionId": "sess_79a59e75-50b7-4433-b903-30cdee857bb1",
+        "timestamp": 1789724284557
+      }
+    ],
+    "1. Fix localStorage storage key to match requirement": [
+      {
+        "executionId": "c1741036-cb48-46a9-a0bc-6a5a0b96cbf0",
+        "chatSessionId": "sess_79a59e75-50b7-4433-b903-30cdee857bb1",
+        "timestamp": 1789724285164
+      }
+    ],
+    "2. Add upper-bound amount validation": [
+      {
+        "executionId": "0eb48c91-9ba4-4192-814e-ab943f8472c7",
+        "chatSessionId": "sess_46d4598d-5b20-417b-9f91-dfbe9184a75a",
+        "timestamp": 1789724430395
+      },
+      {
+        "executionId": "0eb48c91-9ba4-4192-814e-ab943f8472c7",
+        "chatSessionId": "sess_46d4598d-5b20-417b-9f91-dfbe9184a75a",
+        "timestamp": 1789724466465
+      }
+    ],
+    "3. Add per-field inline error messages": [
+      {
+        "executionId": "13b9c198-698c-4b75-afd0-19b8ef9944f6",
+        "chatSessionId": "sess_abf92002-c4d2-4ea8-bba4-3901db1b29a1",
+        "timestamp": 1789724679684
+      },
+      {
+        "executionId": "13b9c198-698c-4b75-afd0-19b8ef9944f6",
+        "chatSessionId": "sess_abf92002-c4d2-4ea8-bba4-3901db1b29a1",
+        "timestamp": 1789724718539
+      }
+    ],
+    "3.2 Update `js/script.js` to target per-field error elements": [
+      {
+        "executionId": "c022d11f-9263-48b4-b5d9-7c5add0406ee",
+        "chatSessionId": "sess_0b66734e-b3ef-4f5a-ae4e-191354bef774",
+        "timestamp": 1789724885241
+      }
+    ],
+    "4.1 Update the `clearAllBtn` click handler in `js/script.js` to embed the transaction count in the `confirm()` string": [
+      {
+        "executionId": "fa49b812-ca60-4b68-a1a3-730e5e51259d",
+        "chatSessionId": "sess_13e80e71-a7ab-4994-b811-21096d85f5cd",
+        "timestamp": 1789725202995
+      },
+      {
+        "executionId": "fa49b812-ca60-4b68-a1a3-730e5e51259d",
+        "chatSessionId": "sess_13e80e71-a7ab-4994-b811-21096d85f5cd",
+        "timestamp": 1789725229972
+      }
+    ],
+    "4. Add transaction count to Clear All confirmation dialog": [
+      {
+        "executionId": "fa49b812-ca60-4b68-a1a3-730e5e51259d",
+        "chatSessionId": "sess_13e80e71-a7ab-4994-b811-21096d85f5cd",
+        "timestamp": 1789725230302
+      }
+    ],
+    "5.1 Add rollback logic to `deleteExpense()` for storage failure": [
+      {
+        "executionId": "b5d76bf6-6e96-4b42-bae2-1e92bc5e5c05",
+        "chatSessionId": "sess_ff19f6a7-1940-4bfd-83bf-2a404c73084f",
+        "timestamp": 1789725331581
+      },
+      {
+        "executionId": "b5d76bf6-6e96-4b42-bae2-1e92bc5e5c05",
+        "chatSessionId": "sess_ff19f6a7-1940-4bfd-83bf-2a404c73084f",
+        "timestamp": 1789725375082
+      }
+    ],
+    "5.2 Add rollback logic to `addExpense()` for storage failure": [
+      {
+        "executionId": "dd22a217-0938-4254-b78b-71e4806c8ebc",
+        "chatSessionId": "sess_56167f4e-9be6-4100-a634-c5443f3d7896",
+        "timestamp": 1789725484881
+      },
+      {
+        "executionId": "dd22a217-0938-4254-b78b-71e4806c8ebc",
+        "chatSessionId": "sess_56167f4e-9be6-4100-a634-c5443f3d7896",
+        "timestamp": 1789725525997
+      }
+    ],
+    "5. Add Storage write rollback on mutation failure": [
+      {
+        "executionId": "dd22a217-0938-4254-b78b-71e4806c8ebc",
+        "chatSessionId": "sess_56167f4e-9be6-4100-a634-c5443f3d7896",
+        "timestamp": 1789725526285
+      }
+    ],
+    "7.1 Update `loadExpenses()` in `js/script.js` to validate the parsed value is an array": [
+      {
+        "executionId": "970e8594-5403-4b96-a29e-d0de55d2f991",
+        "chatSessionId": "sess_71124ad5-41f7-4eb3-b14e-2a3474079543",
+        "timestamp": 1789726070463
+      },
+      {
+        "executionId": "970e8594-5403-4b96-a29e-d0de55d2f991",
+        "chatSessionId": "sess_71124ad5-41f7-4eb3-b14e-2a3474079543",
+        "timestamp": 1789726101566
+      }
+    ],
+    "7. Add `Array.isArray()` guard in `loadExpenses()`": [
+      {
+        "executionId": "970e8594-5403-4b96-a29e-d0de55d2f991",
+        "chatSessionId": "sess_71124ad5-41f7-4eb3-b14e-2a3474079543",
+        "timestamp": 1789726101853
+      }
+    ]
+  }
+}
